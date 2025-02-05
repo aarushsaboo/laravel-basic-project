@@ -1,6 +1,5 @@
 @extends('layouts.app')
-<!-- The line @extends('layouts.app') means this view is extending a layout file.
-Laravel will look for resources/views/layouts/app.blade.php. -->
+<!-- The line @ext2ends('layouts.app') means this view is extending a layout file. Laravel will look for resources/views/layouts/app.blade.php. -->
 
 @section('title', 'User Profile')
 
@@ -13,4 +12,4 @@ Laravel will look for resources/views/layouts/app.blade.php. -->
     </div>
 @endsection
 
-<!-- Since profile.blade.php defines @section('content'), Laravel will inject this inside @yield('content') in your app.blade.php. -->
+<!-- Since profile.blade.php defines @sectio3n('content'), Laravel will inject this inside @y3ield('content') in your app.blade.php. -->
